@@ -1,0 +1,21 @@
+[project]
+name = "pytorch_project"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "iceiceice", email = "597952291@qq.com"},
+]
+dependencies = [
+    "torch>=2.5.0",
+    "torchvision>=0.20.0",
+    "torchaudio>=2.5.0",
+    "pandas>=2.2.3",
+    "tqdm>=4.66.6",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
